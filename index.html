@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Portfolio Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>ONLINE PORTFOLIO BUILDER</h1>
+    <form id="portfolioForm">
+      <label>Name:</label>
+      <input type="text" id="name" required />
+      <label>Bio</label>
+      <textarea id="bio" rows="4" placeholder="tell me about yourself"></textarea>
+      <label>Skills:</label>
+      <input type="text" id="skills" placeholder="start typing a skill" autocomplete="off">
+      <ul id="skillSuggestions" class="suggestions"></ul>
+
+      <project section -->
+<!-- <label>Project Title</label>
+      <input type="text" id="projectTitle">
+      <label>Project Description </label>
+      <textarea id="projectDesc" rows="3"></textarea>
+      <label>Project Url</label>
+      <input type="url" id="projecturl" placeholder="enter project url">
+
+      education section -->
+<!-- <label>Education</label>
+      <input type="text" id="education" placeholder="enter education details">
+      <label>University Name</label>
+      <input type="text" id="universityName" placeholder="enter university name">
+      <label>Start Date</label>
+      <input type="date" id="startDate">
+      <label>End Date</label>
+      <input type="date" id="endDate"> -->
+<!-- Job or Internship section -->
+
+<!-- <label>Internship</label>
+      <input type="text" id="Internship" placeholder="enter internship details">
+      <label>Company Name</label>
+      <input type="text" id="companyName" placeholder="enter company name">
+      <label>Start Date</label>
+      <input type="date" id="startDate1">
+      <label>End Date</label>
+      <input type="date" id="endDate1">
+
+      <label>Job Experience</label>
+      <input type="text" id="Internship" placeholder="enter internship details">
+      <label>Company Name</label>
+      <input type="text" id="companyName" placeholder="enter company name">
+      <label>Start Date</label>
+      <input type="date" id="startDate1">
+      <label>End Date</label>
+      <input type="date" id="endDate1">
+
+
+
+      <button type="submit">Create Portfolio</button>
+
+
+    </form>
+  </div>
+</body>
+
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resumeForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <span id="emailError" class="error"></span>
+      <textarea id="bio" placeholder="Short Bio" rows="3"></textarea>
+
+      <label>Upload Profile Picture:</label>
+      <input type="file" id="profilePic" accept="image/png, image/jpeg" />
+
+      <label>Skills:</label>
+      <input type="text" id="skillsInput" placeholder="Enter a skill" />
+      <ul id="skillSuggestions" class="suggestions"></ul>
+      <div id="skillsContainer" class="chips"></div>
+
+      <input type="text" id="education" placeholder="Education" />
+
+      <h3>Job Experience</h3>
+      <input type="text" id="jobTitle" placeholder="Job Title" />
+      <input type="text" id="company" placeholder="Company Name" />
+      <input type="text" id="jobDuration" placeholder="Duration" />
+
+      <h3>Internship</h3>
+      <input type="text" id="internTitle" placeholder="Internship Title" />
+      <input type="text" id="internCompany" placeholder="Intern Company" />
+      <input type="text" id="internDuration" placeholder="Duration" />
+
+      <h3>Project</h3>
+      <input type="text" id="projectTitle" placeholder="Project Title" />
+      <input type="text" id="projectDesc" placeholder="Project Description" />
+
+      <h3>Social Links</h3>
+      <input type="text" id="linkedin" placeholder="LinkedIn URL" />
+      <input type="text" id="github" placeholder="GitHub URL" />
+
+      <button type="submit">Generate PDF</button>
+    </form>
+  </div>
+
+  <script src="pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
